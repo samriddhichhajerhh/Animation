@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="album cover"></div>
+    <div class="image" >
+        <img src="https://upload.wikimedia.org/wikipedia/en/1/15/Mac_Miller_-_Circles.png" class="rotate">
+    </div>
+
+</body>
+<body>
+    <style>
+        .rotate {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 900px;
+            animation: rotation 4s infinite linear;
+            }
+            @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+    opacity: 0;
+    
+  }
+  to {
+    transform: rotate(359deg);
+    opacity: 1;
+  }
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+    </style>
+</body>
+</html>
